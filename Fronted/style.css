@@ -1,0 +1,174 @@
+/* ---------------- BODY ---------------- */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("quiz.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+/* ---------------- SCREEN ---------------- */
+.screen {
+    text-align: center;
+    background-color: #161b22;
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    overflow-x: auto; /* horizontal scroll for tables */
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* ---------------- INPUTS ---------------- */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #21262d;
+}
+
+input[type="submit"] {
+    background: #21262d;
+    color: #fff;
+    border: 2px solid #30363d;
+}
+
+/* ---------------- BUTTONS ---------------- */
+.btn {
+    background: #21262d;
+    color: #fff;
+    border: 2px solid #30363d;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #30363d;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* ---------------- PROGRESS BAR ---------------- */
+#progress-container {
+    width: 0%;
+    background-color: #0b0b0b;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    height: 30px;
+    overflow: hidden;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 100%;
+    background-color: #0f100f;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(187, 28, 28);
+    line-height: 30px;
+    transition: width 0.5s ease;
+}
+
+/* ---------------- CORRECT / WRONG ---------------- */
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.wrong {
+    background: #f85149;
+    color: white;
+}
+
+/* ---------------- SCORE & TIMER ---------------- */
+#score {
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #222;
+}
+
+#timer {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffeb3b;
+}
+
+.error {
+    color: #ff4c4c;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* ---------------- TABLE CONTAINER ---------------- */
+.table-container {
+    width: 100%;
+    max-height: 450px;  /* vertical scroll */
+    overflow-x: auto;   /* horizontal scroll */
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+/* ---------------- ALL SCORES TABLE ---------------- */
+#allScoresTable {
+    width: 100%;
+    table-layout: auto;      /* columns flexible */
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    word-wrap: break-word;    /* long text wraps */
+}
+
+#allScoresTable th,
+#allScoresTable td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+#allScoresTable th {
+    background-color: #21262d;
+    color: #ffeb3b;
+}
+
+/* ---------------- MOBILE VIEW ---------------- */
+@media (max-width: 600px) {
+    .screen {
+        width: 95%;
+        padding: 20px;
+        max-height: 90vh;
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+
+    #allScoresTable {
+        font-size: 12px;
+    }
+}

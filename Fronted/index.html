@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multi-Test Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ======= Home Screen ======= -->
+  <div id="home" class="screen">
+    <h1>🎓 Multi-Test Quiz System</h1>
+    <p>Please choose a login:</p>
+    <button id="student-login-btn" class="btn">👩‍🎓 Student Login</button>
+    <button id="teacher-login-btn" class="btn">👨‍🏫 Teacher Login</button>
+  </div>
+
+  <!-- ======= Student Login ======= -->
+  <div id="student-login" class="screen hide">
+    <h2>🔐 Student Login</h2>
+    <input type="text" id="student-username" placeholder="Enter Student Username" />
+    <input type="password" id="student-password" placeholder="Enter Password" />
+    <button id="student-login-submit" class="btn">Login</button>
+    <p id="student-login-error" class="error"></p>
+    <button class="btn" onclick="showScreen('home')">⬅ Back</button>
+  </div>
+
+  <!-- ======= Teacher Login ======= -->
+  <div id="teacher-login" class="screen hide">
+    <h2>🧑‍🏫 Teacher Login</h2>
+    <input type="text" id="teacher-username" placeholder="Enter Teacher Username" />
+    <input type="password" id="teacher-password" placeholder="Enter Password" />
+    <button id="teacher-login-submit" class="btn">Login</button>
+    <p id="teacher-login-error" class="error"></p>
+    <button class="btn" onclick="showScreen('home')">⬅ Back</button>
+  </div>
+
+
+ <!-- ======= Teacher Dashboard ======= -->
+<div id="teacher-dashboard" class="screen hide">
+  <h2>📋 Teacher Dashboard</h2>
+  <p>Welcome, <span id="teacher-name"></span>!</p>
+
+  <p>Select a subject to add questions:</p>
+  <!-- ✅ Teacher Subject Dropdown -->
+  <select id="teacher-subject" class="btn">
+    <option value="">-- Select Subject --</option>
+  </select>
+
+  <button id="add-question-btn" class="btn">➕ Add New Question</button>
+  <button id="add-student-btn" class="btn">➕ Add New Student</button>
+  <button id="add-subject-btn" class="btn">➕ Add New Subject</button>
+
+  <!-- ✅ New Button for Scores -->
+  <button id="view-scores-btn" class="btn">📊 View All Scores</button>
+  <button id="view-latest-btn" class="btn"> 📈 View Latest Score</button>
+  <button id="toggle-permission-btn" class="btn">🛡️ Toggle Test Permission</button>
+  <button id="delete-score-btn" class="btn">🗑️ Delete Student Score</button>
+  <button id="reset-subject-scores-btn" class="btn btn-warning">🔄 Reset Subject Scores</button>
+  
+  <button id="downloadExcelBtn">📊 Download Excel</button>
+  <button id="download-all-toppers-btn" class="btn">📊 Download All Subject Toppers</button>
+
+  <select id="subjectSelect">
+    <option value="Android Development">Android Development</option>
+    <option value="Software Engineering">Software Engineering</option>
+    <option value="Java Programming">Java Programming</option>
+    <option value="Computer Hardware and Servicing">Computer Hardware and Servicing</option>
+    <option value="Programming in C">Programming in C</option>
+    <option value="All_Subject_Toppers">All_Subject_Toppers</option>
+  </select>
+              
+
+  <!-- ✅ Table to Show Scores -->
+  <div id="scores-container" class="hide">
+    <h3>📈 All Students Scores</h3>
+    <table id="scores-table" border="1">
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>Subject</th>
+          <th>Score</th>
+          <th>Total</th>
+          <th>Percentage</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <button id="logout-teacher-btn" class="btn">🚪 Logout</button>
+</div>
+
+  <!-- ======= Student Dashboard ======= -->
+<div id="student-dashboard" class="screen hide">
+  <h2>👩‍🎓 Welcome Student!</h2>
+  <p>Select a subject to start your quiz:</p>
+
+  <!-- ✅ Subject Dropdown -->
+  <select id="student-subject" class="btn">
+    <option value="">-- Select Subject --</option>
+  </select>
+
+  <button id="start-quiz-btn" class="btn">▶️ Start Quiz</button>
+  <button id="logout-student-btn" class="btn">🚪 Logout</button>
+</div>
+
+  <!-- Quiz Screen-->
+   <div id="quiz-screen" class="screen hide">
+    <h2> Quiz Time</h2>
+    <div id="timer"></div>
+    <div id="question-box"></div>
+    <div id="options-box"></div>
+    <button id="next-btn" class="btn hide">Next</button>
+   </div>
+
+   <!-- Result Screen -->
+    <div id="result-screen" class="screen hide">
+      <h2>🏆 Quiz Completed</h2>
+      <p>📊 Your Score: <span id="score"></span></p>
+      <p>🏷️ Percentage: <span id="percentage"></span></p>
+      <p id="score-box"></p>
+     
+    
+      <button class="btn" onclick="showScreen('student-dashboard')">⬅ Back to Home</button>
+      </div>
+
+  <script src="script2.js" defer></script>
+</body>
+</html>
