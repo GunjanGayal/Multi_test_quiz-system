@@ -1,0 +1,472 @@
+{
+  "Android Development": [
+    {
+      "q": "Which programming language is primarily used for Android app development?",
+      "options": [
+        "Java",
+        "Swift",
+        "Kotlin",
+        "C#"
+      ],
+      "answer": "Kotlin"
+    },
+    {
+      "q": "What is the name of the official IDE for Android development?",
+      "options": [
+        "Eclipse",
+        "Android Studio",
+        "IntelliJ IDEA",
+        "Visual Studio"
+      ],
+      "answer": "Android Studio"
+    },
+    {
+      "q": "Which file is used to declare app permissions in Android?",
+      "options": [
+        "build.gradle",
+        "AndroidManifest.xml",
+        "MainActivity.java",
+        "settings.gradle"
+      ],
+      "answer": "AndroidManifest.xml"
+    },
+    {
+      "q": "Which file specifies the layout of your Android app?",
+      "options": [
+        "AndroidMainfest.xml",
+        "MainActivity.java",
+        "activity_main.xml",
+        "build.gradle"
+      ],
+      "answer": "activity_main.xml"
+    },
+    {
+      "q": "Which component is used to perform background operations in Android?",
+      "options": [
+        "Activity",
+        "Service",
+        "BroadcastReceiver",
+        "ContentProvider"
+      ],
+      "answer": "Service"
+    },
+    {
+      "q": "Which method is used to start a new activity in Android?",
+      "options": [
+        "startActivity()",
+        "launchActivity()",
+        "openActivity()",
+        "initActivity()"
+      ],
+      "answer": "startActivity()"
+    },
+    {
+      "q": "Which Android component allows apps to share data with other apps?",
+      "options": [
+        "Service",
+        "ContentProvider",
+        "BroadcastReceiver",
+        "Fragment"
+      ],
+      "answer": "ContentProvider"
+    },
+    {
+      "q": "Full form of dp in Android development?",
+      "options": [
+        "density pixels",
+        "device pixels",
+        "density-independent pixels",
+        "device-independent pixels"
+      ],
+      "answer": "density-independent pixels"
+    },
+    {
+      "q": "Which layout is best suited for creating complex UIs with overlapping views in Android?",
+      "options": [
+        "LinearLayout",
+        "RelativeLayout",
+        "ConstraintLayout",
+        "FrameLayout"
+      ],
+      "answer": "ConstraintLayout"
+    },
+    {
+      "q": "What is the purpose of the onCreate() method in an Android activity?",
+      "options": [
+        "To handle user interactions",
+        "To initialize the activity",
+        "To manage background tasks",
+        "To define app permissions"
+      ],
+      "answer": "To initialize the activity"
+    }
+  ],
+  "Software Engineering": [
+    {
+      "q": "Which of the following is not a Software Development Life Cycle (SDLC) model?",
+      "options": [
+        "Waterfall Model",
+        "Agile Model",
+        "Spiral Model",
+        "Binary Model"
+      ],
+      "answer": "Binary Model"
+    },
+    {
+      "q": "SRS stands for?",
+      "options": [
+        "Software Requirement Specification",
+        "System Requirement Specification",
+        "Software Resource Specification",
+        "System Resource Specification"
+      ],
+      "answer": "Software Requirement Specification"
+    },
+    {
+      "q": "Which SDLC model emphasizes iterative development and customer collaboration?",
+      "options": [
+        "Waterfall Model",
+        "V-Model",
+        "Agile Model",
+        "Big Bang Model"
+      ],
+      "answer": "Agile Model"
+    },
+    {
+      "q": "In which SDLC phase is the software tested for defects?",
+      "options": [
+        "Design Phase",
+        "Implementation Phase",
+        "Testing Phase",
+        "Requirement Analysis Phase"
+      ],
+      "answer": "Testing Phase"
+    },
+    {
+      "q": "Which document outlines the functionalities and constraints of a software system?",
+      "options": [
+        "SRS Document",
+        "Design Document",
+        "Test Plan",
+        "User Manual"
+      ],
+      "answer": "SRS Document"
+    },
+    {
+      "q": "The full form of SDLC is?",
+      "options": [
+        "Software Design Life Cycle",
+        "Software Development Life Cycle",
+        "System Design Life Cycle",
+        "System development Logic Cycle"
+      ],
+      "answer": "Software Development Life Cycle"
+    },
+    {
+      "q": "Which of the following is a key principle of Agile methodology?",
+      "options": [
+        "Comprehensive documentation",
+        "Customer collaboration",
+        "Following a strict plan",
+        "Individual work over team work"
+      ],
+      "answer": "Customer collaboration"
+    },
+    {
+      "q": "Which of the following is a type of software testing?",
+      "options": [
+        "Unit Testing",
+        "Integration Testing",
+        "System Testing",
+        "Acceptance Testing"
+      ],
+      "answer": "Acceptance Testing"
+    },
+    {
+      "q": "Which of the following is NOT a software development methodology?",
+      "options": [
+        "Waterfall",
+        "Agile",
+        "Scrum",
+        "Binary"
+      ],
+      "answer": "Binary"
+    },
+    {
+      "q": "What is the main purpose of version control systems in software development?",
+      "options": [
+        "To manage project timelines",
+        "To track changes in code",
+        "To allocate resources",
+        "To design software architecture"
+      ],
+      "answer": "To track changes in code"
+    }
+  ],
+  "Java Programming": [
+    {
+      "q": "Full form of JVM?",
+      "options": [
+        "Java Voting Machine",
+        "Java Virtual Manager",
+        "Java Script Virtual Machine",
+        "Java Virtual Machine"
+      ],
+      "answer": "Java Virtual Machine"
+    },
+    {
+      "q": "JDK stands for",
+      "options": [
+        "Java Developed Kit",
+        "Java Derived Kit",
+        "Java Development Kit",
+        "Java Virtual Machine"
+      ],
+      "answer": "Java Development Kit"
+    },
+    {
+      "q": "Which keyword is used to implement inheritance in Java?",
+      "options": [
+        "implements",
+        "extends",
+        "inherits",
+        "super"
+      ],
+      "answer": "extends"
+    },
+    {
+      "q": "Which keyword is used to define a default method in a Java interface?",
+      "options": [
+        "default",
+        "static",
+        "final",
+        "public"
+      ],
+      "answer": "default"
+    },
+    {
+      "q": "Which of the following is used to handle exceptions in Java?",
+      "options": [
+        "if-else",
+        "switch-case",
+        "try-catch",
+        "for loop"
+      ],
+      "answer": "try-catch"
+    },
+    {
+      "q": "Which of these is NOT a loop in Java?",
+      "options": [
+        "for",
+        "while",
+        "repeat",
+        "do-while"
+      ],
+      "answer": "repeat"
+    },
+    {
+      "q": "Which of the following is a valid way to declare an array in Java?",
+      "options": [
+        "int arr[] = new int[5];",
+        "int arr[] = int[5];",
+        "array arr = new int[5];",
+        "int arr = new array[5];"
+      ],
+      "answer": "int arr[] = new int[5];"
+    },
+    {
+      "q": "Which access modifier allows access to members within the same package and subclasses?",
+      "options": [
+        "private",
+        "public",
+        "protected",
+        "default"
+      ],
+      "answer": "protected"
+    },
+    {
+      "q": "What is the output of the following code snippet?\n\n```java\nSystem.out.println(10 + 20 + \"30\");\n```",
+      "options": [
+        "3030",
+        "102030",
+        "30",
+        "60"
+      ],
+      "answer": "3030"
+    },
+    {
+      "q": "Which of the following is NOT a primitive data type in Java?",
+      "options": [
+        "int",
+        "float",
+        "String",
+        "boolean"
+      ],
+      "answer": "String"
+    },
+    {
+      "q": "JSON full form",
+      "options": [
+        "Java Script object",
+        "Java Script Object Mnotation",
+        "Java",
+        "iooo"
+      ],
+      "answer": "Java Script Object Notation"
+    }
+  ],
+  "Computer Hardware and Servicing": [
+    {
+      "q": "What does CPU stand for?",
+      "options": [
+        "Central Processing Unit",
+        "Computer Personal Unit",
+        "Central Performance Unit",
+        "Computer Processing Unit"
+      ],
+      "answer": "Central Processing Unit"
+    },
+    {
+      "q": "Which component is responsible for storing data temporarily while the computer is running?",
+      "options": [
+        "Hard Drive",
+        "RAM",
+        "CPU",
+        "GPU"
+      ],
+      "answer": "RAM"
+    },
+    {
+      "q": "What type of device is a printer?",
+      "options": [
+        "Input Device",
+        "Output Device",
+        "Storage Device",
+        "Processing Device"
+      ],
+      "answer": "Output Device"
+    },
+    {
+      "q": "Which of the following is NOT an example of an input device?",
+      "options": [
+        "Keyboard",
+        "Mouse",
+        "Monitor",
+        "Scanner"
+      ],
+      "answer": "Monitor"
+    },
+    {
+      "q": "What does BIOS stand for?",
+      "options": [
+        "Basic Input Output System",
+        "Binary Input Output System",
+        "Basic Internal Operating System",
+        "Binary Internal Operating System"
+      ],
+      "answer": "Basic Input Output System"
+    },
+    {
+      "q": "Which component is considered the 'brain' of the computer?",
+      "options": [
+        "RAM",
+        "Hard Drive",
+        "CPU",
+        "GPU"
+      ],
+      "answer": "CPU"
+    },
+    {
+      "q": "What type of storage device uses flash memory to store data?",
+      "options": [
+        "Hard Disk Drive (HDD)",
+        "Solid State Drive (SSD)",
+        "Optical Drive",
+        "Magnetic Tape"
+      ],
+      "answer": "Solid State Drive (SSD)"
+    },
+    {
+      "q": "Which of the following is NOT a type of computer memory?",
+      "options": [
+        "RAM",
+        "ROM",
+        "CPU",
+        "Cache"
+      ],
+      "answer": "CPU"
+    },
+    {
+      "q": "What does GPU stand for?",
+      "options": [
+        "General Processing Unit",
+        "Graphics Processing Unit",
+        "Global Processing Unit",
+        "Graphical Performance Unit"
+      ],
+      "answer": "Graphics Processing Unit"
+    },
+    {
+      "q": "Which device is used to connect multiple computers in a network?",
+      "options": [
+        "Router",
+        "Switch",
+        "Modem",
+        "Hub"
+      ],
+      "answer": "Router"
+    }
+  ],
+  "Programming in C": [
+    {
+      "q": "Which of the following is the correct syntax to declare a variable in C?",
+      "options": [
+        "int varName;",
+        "varName int;",
+        "declare int varName;",
+        "int: varName;"
+      ],
+      "answer": "int varName;"
+    },
+    {
+      "q": "What is the output of the following code snippet?\n\n```c\n#include <stdio.h>\nint main() {\n    int a = 5;\n    printf(\"%d\", a++);\n    return 0;\n}\n```",
+      "options": [
+        "5",
+        "6",
+        "Error",
+        "Undefined"
+      ],
+      "answer": "5"
+    },
+    {
+      "q": "Which of the following is used to comment a single line in C?",
+      "options": [
+        "// This is a comment",
+        "/* This is a comment */",
+        "# This is a comment",
+        "<!-- This is a comment -->"
+      ],
+      "answer": "// This is a comment"
+    },
+    {
+      "q": "What is the size of an int data type in C on a 32-bit system?",
+      "options": [
+        "2 bytes",
+        "4 bytes",
+        "8 bytes",
+        "Depends on the compiler"
+      ],
+      "answer": "4 bytes"
+    },
+    {
+      "q": "Which function is used to read input from the user in C?",
+      "options": [
+        "scanf()",
+        "printf()",
+        "input()",
+        "read()"
+      ],
+      "answer": "scanf()"
+    }
+  ]
+}

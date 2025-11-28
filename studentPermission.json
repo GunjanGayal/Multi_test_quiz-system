@@ -1,0 +1,26 @@
+{
+  "student1": {
+    "Android": true,
+    "Android Development": false,
+    "Java Programming": false,
+    "Software Engineering": false
+  },
+  "student3": {
+    "Android Development": false
+  },
+  "student2": {
+    "Java Programming": false
+  },
+  "kavita": {
+    "Android Development": false,
+    "SoftwareEngineering": true,
+    "Java Programming": false
+  },
+  "pooja": {
+    "Android Development": false
+  },
+  "gunjan": {
+    "Android Development": false,
+    "gayal123": true
+  }
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "username": "student2",
+    "subject": "Android Development",
+    "score": 1,
+    "total": 3,
+    "percentage": "33.33",
+    "date": "6/11/2025, 4:19:25 pm"
+  },
+  {
+    "username": "gunjangayal",
+    "subject": "Software Engineering",
+    "score": 4,
+    "total": 6,
+    "percentage": "66.67",
+    "date": "12/11/2025, 8:11:35 am"
+  },
+  {
+    "username": "harshita",
+    "subject": "Android Development",
+    "score": 3,
+    "total": 7,
+    "percentage": "42.86",
+    "date": "12/11/2025, 12:38:10 pm"
+  },
+  {
+    "username": "gunjan",
+    "subject": "Java Programming",
+    "score": 6,
+    "total": 6,
+    "percentage": "100.00",
+    "date": "12/11/2025, 5:41:59 pm"
+  },
+  {
+    "username": "gunjan",
+    "subject": "Android Development",
+    "score": 7,
+    "total": 10,
+    "percentage": "70.00",
+    "date": "12/11/2025, 8:27:04 pm"
+  },
+  {
+    "username": "gunjangayal",
+    "subject": "Java Programming",
+    "score": 8,
+    "total": 10,
+    "percentage": 80,
+    "date": "14/11/2025, 4:03:01 pm"
+  },
+  {
+    "username": "student1",
+    "subject": "Android Development",
+    "score": 6,
+    "total": 10,
+    "percentage": 60,
+    "date": "23/11/2025, 8:07:01 pm"
+  },
+  {
+    "username": "gunjangayal",
+    "subject": "Android Development",
+    "score": 6,
+    "total": 10,
+    "percentage": 60,
+    "date": "23/11/2025, 8:14:40 pm"
+  },
+  {
+    "username": "pooja",
+    "subject": "Software Engineering",
+    "score": 5,
+    "total": 10,
+    "percentage": 50,
+    "date": "23/11/2025, 8:18:20 pm"
+  },
+  {
+    "username": "kavita",
+    "subject": "Software Engineering",
+    "score": 5,
+    "total": 10,
+    "percentage": 50,
+    "date": "23/11/2025, 8:20:54 pm"
+  },
+  {
+    "username": "student1",
+    "subject": "Java Programming",
+    "score": 8,
+    "total": 10,
+    "percentage": 80,
+    "date": "23/11/2025, 8:24:46 pm"
+  },
+  {
+    "username": "harshita",
+    "subject": "Computer Hardware and Servicing",
+    "score": 7,
+    "total": 10,
+    "percentage": 70,
+    "date": "23/11/2025, 8:39:15 pm"
+  },
+  {
+    "username": "kavita",
+    "subject": "Android Development",
+    "score": 6,
+    "total": 10,
+    "percentage": 60,
+    "date": "24/11/2025, 1:35:17 pm"
+  },
+  {
+    "username": "garima",
+    "subject": "Android Development",
+    "score": 5,
+    "total": 10,
+    "percentage": 50,
+    "date": "24/11/2025, 2:50:43 pm"
+  },
+  {
+    "username": "pooja",
+    "subject": "Android Development",
+    "score": 4,
+    "total": 10,
+    "percentage": 40,
+    "date": "24/11/2025, 2:51:40 pm"
+  },
+  {
+    "username": "geeta",
+    "subject": "Computer Hardware and Servicing",
+    "score": 6,
+    "total": 10,
+    "percentage": 60,
+    "date": "25/11/2025, 8:28:34 pm"
+  },
+  {
+    "username": "student1",
+    "subject": "Programming in C",
+    "score": 4,
+    "total": 5,
+    "percentage": 80,
+    "date": "25/11/2025, 8:31:03 pm"
+  },
+  {
+    "username": "kavita",
+    "subject": "Java Programming",
+    "score": 3,
+    "total": 10,
+    "percentage": 30,
+    "date": "26/11/2025, 12:36:42 pm"
+  },
+  {
+    "username": "kavita",
+    "subject": "Programming in C",
+    "score": 2,
+    "total": 5,
+    "percentage": 40,
+    "date": "26/11/2025, 1:30:11 pm"
+  },
+  {
+    "username": "gunjangayal",
+    "subject": "Programming in C",
+    "score": 4,
+    "total": 5,
+    "percentage": 80,
+    "date": "27/11/2025, 2:57:45 pm"
+  }
+]
